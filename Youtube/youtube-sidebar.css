@@ -1,0 +1,42 @@
+.sidebar{
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    top:55px;
+    background-color: white;
+    width:72px;
+    z-index: 200;
+    padding-top: 5px;
+}
+.home-button{
+    background-color: white;
+    height: 74px;
+    transition: "background-color:10s";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.home-button:hover{
+    background-color: rgb(235,235,235);
+    /* background-color: black; */
+    /* border: 100px; */
+    cursor: pointer;
+    
+}
+.home-icon{
+    /* position: absolute; */
+    height:24px;
+    width:24px;
+    margin-bottom: 4px;
+    /* top:20px;
+    left:24px; */
+}
+.home-text{
+    /* position: absolute; */
+    /* top:44px;
+    left:24px; */
+    font-size: 10px;
+    font-family: Roboto;
+    font-weight: 1px;
+}

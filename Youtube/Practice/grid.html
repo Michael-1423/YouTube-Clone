@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid</title>
+    </head>
+    <body>
+        <div style="
+            display: grid;
+            grid-template-columns: 100px 100px;
+            margin-bottom: 20px;
+            ">
+            <div style="background-color: red;">div1 text abcdef</div>
+            <div style="background-color: yellow;">div2<p>text</p></div>
+        </div>
+        <div style="
+            display:grid;
+            grid-template-columns: 100px 100px 200px;
+            margin-bottom: 20px;
+        ">
+        <div style="background-color: red;">100px</div>
+        <div style="background-color: yellow;">100px</div>
+        <div style="background-color: red;">200px</div>  
+        <div style="background-color: yellow;">100px</div>
+    </div>
+    <div style="
+        display: grid;
+        grid-template-columns: 100px 1fr;
+    ">
+    <div style="background-color: red;">100px</div>
+    <div style="background-color: yellow;">100px</div>
+</div>
+
+<div style="
+display: grid;
+grid-template-columns: 100px 1fr 2fr;
+">
+<div style="background-color: red;">100px</div>
+<div style="background-color: yellow;">100px</div>
+<div style="background-color: red;">100px</div>
+</div>
+<div style="
+display: grid;
+grid-template-columns: 1fr 1fr 2fr;
+margin-top: 30px;
+column-gap: 20px;
+height:100px
+">
+<div style="background-color: red;;">100px</div>
+<div style="background-color: yellow;">100px</div>
+<div style="background-color: red;">100px</div>
+</div>
+
+
+
+
+    </body>
+</html>

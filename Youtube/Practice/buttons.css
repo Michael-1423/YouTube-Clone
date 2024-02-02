@@ -1,0 +1,78 @@
+.subscribe {
+    background-color: #cc0000;
+    
+    color: white;
+    border: none;
+    /* height: 36px;
+    width: 112px; */
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10;
+    transition: opacity 0.1s;
+}
+.subscribe:hover{
+    opacity: 0.5;
+}
+.subscribe:active{
+    opacity:0.3;
+}
+.Join{
+    background-color: white;
+    /* border-color: rgb(82, 82, 183); */
+    border-color: #065fd4;;
+    /* height: 36px;
+    width: 65px; */
+    border-style: solid;
+    border-radius: 2px;
+    border-width: 0.8px;
+    /* color: rgb(82, 82, 183); */
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 9px;
+    padding-bottom: 9;
+    color:#065fd4;;
+    cursor: pointer;
+    margin-right: 12px;
+    transition: background-color 0.1s,color 0.1s;
+    
+}
+.join:hover{
+    background-color: #065fd4;;
+    color:white;
+    
+}
+.join:active{
+    opacity: 0.8;
+}
+.twitter{
+    background-color: #1d9bf0;
+    /* background-color: blue; */
+    
+    /* height: 36px;
+    width: 74px; */
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 7px;
+    padding-bottom: 7;
+    border-radius: 50px;
+    color: white;
+    border:none;
+    font-size: 15;
+    /* font-family:; */
+    font-weight: bold;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+    
+    
+}
+.twitter:hover{
+    box-shadow: 5px,5px,10px rgba(0,0,0,0.15);
+}
+.twitter:active{
+    box-shadow: 5px,5px,10px rgba(0,0,0,0.15);
+    opacity: 0.6;
+}
